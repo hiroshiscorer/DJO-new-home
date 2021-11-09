@@ -1,0 +1,167 @@
+/* BOOTSTRAP XS AND SM */
+@media all and (min-width: 0px) and (max-width: 767px) {
+	.djo-home__main-header {
+		position: static;
+	}
+	.djo-home__main-header + section {
+		padding-top: 1rem;
+	}
+	.djo-home__main-header .main-header--left h1 img {
+		width: 5rem;
+		margin: 1rem 0;
+	}
+	.main-header--left i {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main-header--left {
+		text-align: center;
+	}
+	.main-header--center {
+		background-image: linear-gradient(var(--djo-purple-a), #000 50%);
+		height: 80vh;
+		left: -100%;
+		position: fixed;
+		top: 0;
+		transition: 350ms ease-in-out;
+		width: 100%;
+		z-index: 10;
+	}
+	.main-header--center nav {
+		position: relative;
+	}
+	.main-header--center i {
+		display: block;
+	}
+	.main-header--center nav ul {
+		justify-content: space-evenly;
+	}
+	.main-header--center nav ul li a {
+		font-size: 2rem;
+		padding: 1rem;
+		display: inline-block;
+	}
+	.main-header--right {
+		background-image: linear-gradient(#000, var(--djo-green-6));
+		height: 20vh;
+		justify-content: center;
+		left: 100%;
+		position: fixed;
+		top: 80%;
+		transition: 350ms ease-in-out;
+		width: 100%;
+		z-index: 10;
+	}
+	.main-header--right .button-like-link {
+		height: 4rem;
+	}
+	.main-header--center.mobile-active, .main-header--right.mobile-active {
+		left: 0;
+	}
+	.main-header--center nav ul {
+		flex-direction: column;
+	}
+	.djo-home__premiere {
+		height: calc(100vh - 84px);
+		min-height: 40rem;
+	}
+	.djo-home__premiere h2 {
+		font-size: 3rem;
+	}
+	.djo-home__premiere h3 {
+		font-size: 7rem;
+	}
+	.djo-home .bx-controls-direction {
+		height: initial;
+		position: relative;
+		text-align: center;
+		top: 0;
+		width: 100%;
+	}
+	.djo-home a.bx-prev, .djo-home a.bx-next {
+		left: initial;
+		right: initial;
+		width: 50%;
+	 }
+	.main-footer--last ul {
+		justify-content: space-evenly;
+	}
+	.djo-home__discord iframe {
+		height: 32rem;
+		width: 100%;
+	}
+}
+
+
+/* BOOTSTRAP XS */
+@media all and (min-width: 0px) and (max-width: 575px) {
+
+}
+
+/* BOOTSTRAP SM */
+@media all and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* BOOTSTRAP MD */
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.main-header--center nav ul li {
+		margin: 0 1rem;
+	}
+
+	.main-header--right .button-like-link {
+		width: 13rem;
+	}
+	.djo-home__discord iframe {
+		height: 32rem;
+		width: 100%;
+	}
+
+
+}
+
+/* BOOTSTRAP LG */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+	.main-header--center {
+		flex-grow: 4;
+	}
+
+	.main-header--right .button-like-link {
+		width: 16rem;
+	}
+
+	.djo-home__topics .posts__content h3 {
+		height: 3.6em;
+	}
+
+	.djo-home__news .news__slider a {
+		height: 14.4rem;
+	}
+	.djo-home__discord iframe {
+		height: 32rem;
+		width: 100%;
+	}
+}
+
+/* ============= EXTRA QUERIES ============= */
+
+/* 0-320 */
+@media all and (min-width: 0px) and (max-width: 320px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+/* 0-480 */
+@media all and (min-width: 0px) and (max-width: 480px) {
+
+}
+
+/* 320-480 */
+@media all and (min-width: 320px) and (max-width: 480px) {
+
+}
+
+
+

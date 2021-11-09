@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dark Jedi Organization</title>
+
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!-- Local CSS required files -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+	<!--Remote CSS required files (fonts) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+		  rel="stylesheet">
+
+	<!-- Required remote JS file -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<!-- Required local JS file -->
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+
+	<!-- FavIcons for different OS -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#8554b6">
+	<meta name="msapplication-TileColor" content="#8554b6">
+	<meta name="theme-color" content="#38234c">
+
+
+
+</head>
+<body class="djo-home" style="overflow: hidden;">
+
+	<!-- Aside that shows the loading spinner, fades out on asset loading completion -->
+	<aside class="loading-spinner"
+		   style="position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: #224; z-index: 100; display: flex; justify-content: center; align-items: center">
+		<div style="background: url('images/loading-spinner.gif') 50% 50% / cover no-repeat; width: 100px; height: 100px;"></div>
+	</aside>
+	<header class="djo-home__main-header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="main-header--left col">
+					<h1><a href="/"><img src="images/djo-logo.png" alt="DarkJedi Organization"/></a></h1>
+					<i id="menu-open" class="fas fa-bars"></i>
+				</div>
+				<div class="main-header--center col">
+					<!-- Please check link URLs in this nav links and footer links-->
+					<nav>
+						<ul>
+							<li><a href="/comlink/">Comlinks</a></li>
+							<li><a href="/theclubs.php">Clubs</a></li>
+							<li><a href="/club/DJO/structure/">Members</a></li>
+							<li><a href="/club/DJO/news/">News</a></li>
+							<li><a href="/about/">About Us</a></li>
+						</ul>
+						<i id="menu-close" class="fas fa-times"></i>
+					</nav>
+				</div>
+				<div class="main-header--right col">
+					<a class="button-like-link" href="/games.php">JOIN DJO</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="djo-home__premiere">
+		<div class="container h-100">
+			<div class="row h-100">
+				<div class="col h-100 flex-center-column">
+					<h2 class="wow-reveal animate__fadeInDown" data-wow-delay="0.5s">OUR MISSION:</h2>
+					<h3 class="wow-reveal animate__fadeInLeftBig" data-wow-delay="0.75s">GAMING TOGETHER</h3>
+					<p class="wow-reveal animate__fadeInFocus" data-wow-delay="1s" data-wow-duration="2s">Founded in 1997, <strong class="text-djo-light-purple">DarkJedi.Org</strong> provides free, stable,
+						and safe communities for PC gamers of all backgrounds.</p>
+					<a class="button-like-link wow-reveal animate__fadeInUp" href="/about/" data-wow-delay="1.5s">MORE ABOUT US</a>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="djo-home__discord">
+		<div class="container">
+			<div class="row">
+				<div class="col flex-center">
+					<!-- Insert Discord widget here, and remove the following h2 element, I will assume it will be an iFrame and it is styled in style.css, but if you need to make adjustments I left it at the very end of style.css and responsive.css -->
+					<h2 style="font-size: 3rem; padding: 16rem 0; background-color: #0803; width: 100%; text-align: center; margin: 0;">
+						Discord widget goes here</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="djo-home__explainer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.25s">Community Gaming</h2>
+					<p>We are an international gaming community comprised of individual clubs hosted under a single domain.
+						However, we are more than simply a club hosting service. Our members are held to a high standard and
+						our clubs have grown to be some of the largest and most respected organizations in online gaming. In
+						addition to being a home for gamers of every play style, our staff provides premier services to our
+						members.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-12">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.25s">Serving the Membership's Wishes</h2>
+					<p>Unlike other gaming communities, our goal isn't to profit - we're here to serve the gaming community.
+						Our organization is built and maintained entirely by a staff of volunteers who believe in gaming
+						together. They are dedicated to offering the DJO membership the services out of any gaming community
+						around.</p>
+				</div>
+				<div class="col-md-6 col-12">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.25s">Excellence in Online Gaming</h2>
+					<p>We are committed to building long-term communities. While games and clans are known to come and go,
+						DJO and some of its gaming divisions have been around for almost 20 years. Our members can rest
+						assured the community will be here for years to come.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="explainer__feature wow-reveal animate__lightSpeedInLeft" data-wow-delay="0.5" data-wow-duration="2s"><strong>Game on. Together.</strong></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="djo-home__our-games">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.5s">OUR GAMES</h2>
+					<ul class="our-games__slider">
+						<!-- This li element gets populated by php and database, and should be iterated for each game supported by DJO.  Here is an empty one with database info required in brackets. <a> element should be iterated with all clubs that support the game. Remove placeholder <li> elements.
+
+						<li>
+							<img src="[GAME IMAGE URL]" alt="[GAME NAME]">
+							<h3>[GAME NAME]</h3>
+							<p>Club(s) supporting</p>
+							<a class="button-like-link" href="[CLUB URL]">DJO Gaming</a>
+						</li>
+						-->
+						<li>
+							<img src="https://www.darkjedi.org/games/pics/SW:%20Squa/badge.png" alt="">
+							<h3>Star Wars: Squadrons</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">TIE Fighter Alliance</a>
+							<a class="button-like-link" href="">The Rebel Alliance</a>
+							<a class="button-like-link" href="">Rebel Ground Forces</a>
+							<a class="button-like-link" href="">Imperial Ground Forces</a>
+						</li>
+						<li>
+							<img src="https://darkjedi.org/games/pics/TCRSS/badge.png" alt="">
+							<h3>Tom Clancy's Rainbow Six: Siege</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">DJO Gaming</a>
+						</li>
+						<li>
+							<img src="https://darkjedi.org/games/pics/TCRSS/badge.png" alt="">
+							<h3>Tom Clancy's Rainbow Six: Siege</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">DJO Gaming</a>
+						</li>
+						<li>
+							<img src="https://darkjedi.org/games/pics/TCRSS/badge.png" alt="">
+							<h3>Tom Clancy's Rainbow Six: Siege</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">DJO Gaming</a>
+						</li>
+						<li>
+							<img src="https://darkjedi.org/games/pics/TCRSS/badge.png" alt="">
+							<h3>Tom Clancy's Rainbow Six: Siege</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">DJO Gaming</a>
+						</li>
+						<li>
+							<img src="https://darkjedi.org/games/pics/TCRSS/badge.png" alt="">
+							<h3>Tom Clancy's Rainbow Six: Siege</h3>
+							<p>Clubs supporting</p>
+							<a class="button-like-link" href="">DJO Gaming</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="djo-home__topics">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.5s">Recent Topics</h2>
+					<ul class="topics__slider">
+						<!-- This li element gets populated by php and database, and should be iterated for each recent Topic. (Limit is up to you, I recommend a maximum of 12)  Here is an empty one with database info required in brackets. Remove placeholder <li> elements.
+						<li>
+							<a class="posts__link" href="[TOPIC URL]">
+								<div class="posts__image">
+									<img src="[CLUB WHERE TOPIC IS MADE IMAGE URL]" alt="[CLUB NAME]">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">[CLUB INITIALS]</span>
+										<span>[TIME OF TOPIC]</span>
+									</p>
+									<h3>[TOPIC TITLE]</h3>
+								</div>
+								<div class="posts__author">
+									<p>[TOPIC AUTHOR WITH RANK]</p>
+								</div>
+							</a>
+						</li>
+						-->
+						<li>
+							<a class="posts__link" href="/club/TFA/comlinks/?f=2362&t=1395043&post=6620734&search_id=post#6620734">
+								<div class="posts__image">
+									<img src="images/TRA_logo.png" alt="">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">TFA</span>
+										<span>5 Hours, 31 Mins Ago</span>
+									</p>
+									<h3>$ Welcome to Eagle Squadron Pilot $</h3>
+								</div>
+								<div class="posts__author">
+									<p>by Akreseus, Lieutenant Commander</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="posts__link" href="/club/TFA/comlinks/?f=2362&t=1395043&post=6620734&search_id=post#6620734">
+								<div class="posts__image">
+									<img src="images/TRA_logo.png" alt="">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">TFA</span>
+										<span>5 Hours, 31 Mins Ago</span>
+									</p>
+									<h3>$ Welcome to Eagle Squadron Pilot $</h3>
+								</div>
+								<div class="posts__author">
+									<p>by WebMaestro, Lieutenant Commander</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="posts__link" href="/club/TFA/comlinks/?f=2362&t=1395043&post=6620734&search_id=post#6620734">
+								<div class="posts__image">
+									<img src="images/TRA_logo.png" alt="">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">TFA</span>
+										<span>5 Hours, 31 Mins Ago</span>
+									</p>
+									<h3>$ Welcome to Eagle Squadron Pilot $</h3>
+								</div>
+								<div class="posts__author">
+									<p>by WesJanson, Lieutenant Commander</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="posts__link" href="/club/TFA/comlinks/?f=2362&t=1395043&post=6620734&search_id=post#6620734">
+								<div class="posts__image">
+									<img src="images/TRA_logo.png" alt="">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">TFA</span>
+										<span>5 Hours, 31 Mins Ago</span>
+									</p>
+									<h3>$ Welcome to Eagle Squadron Pilot $</h3>
+								</div>
+								<div class="posts__author">
+									<p>by CosmicDebris, Lieutenant Commander</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a class="posts__link" href="/club/TFA/comlinks/?f=2362&t=1395043&post=6620734&search_id=post#6620734">
+								<div class="posts__image">
+									<img src="images/TRA_logo.png" alt="">
+								</div>
+								<div class="posts__content">
+									<p class="content__date">
+										<span class="text-djo-light-purple">TFA</span>
+										<span>5 Hours, 31 Mins Ago</span>
+									</p>
+									<h3>$ Welcome to Eagle Squadron Pilot $</h3>
+								</div>
+								<div class="posts__author">
+									<p>by EvilGrin, Lieutenant Commander</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="djo-home__news">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="wow-reveal animate__fadeIn" data-wow-delay="0.5s">Recent News</h2>
+					<ul class="news__slider">
+						<!-- This li element gets populated by php and database, and should be iterated for each News entry. (Limit is up to you, I recommend a maximum of 8)  Here is an empty one with database info required in brackets. Remove placeholder <li> elements.
+
+						<li>
+							<div>
+								<img src="[AUTHOR BIOS PIC IMAGE URL]" alt="[AUTHOR NAME]" />
+
+								<h3>[AUTHOR NAME]</h3>
+
+								<p class="category">[NEWS CATEGORY]</p>
+								<a href="[NEWS URL]">[NEWS TITLE]</a>
+
+							</div>
+						</li>
+
+						-->
+
+						<li>
+							<div>
+								<img src="https://www.darkjedi.org/playerfiles/50131/fbpic2.jpg" alt="Yoni" />
+
+								<h3>Yoni</h3>
+
+								<p class="category">Tech</p>
+								<a href="http://www.darkjedi.org/support/techsol/articles/news.php?n=17">ThunderMax's Tech Review - Feb 2018</a>
+
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="https://www.darkjedi.org/playerfiles/4203/scorer_profile.jpg" alt="Scorer">
+								<h3>Scorer</h3>
+								<p class="category">Games</p>
+								<a href="http://www.darkjedi.org/news/news.php?n=5719">Call of Duty: Black Ops Cold War</a>
+
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="https://www.darkjedi.org/playerfiles/50131/fbpic2.jpg" alt="Yoni" />
+
+								<h3>Yoni</h3>
+
+								<p class="category">Tech</p>
+								<a href="http://www.darkjedi.org/support/techsol/articles/news.php?n=17">ThunderMax's Tech Review - Feb 2018</a>
+
+							</div>
+						</li>
+						<li>
+							<div>
+								<img src="https://www.darkjedi.org/playerfiles/4203/scorer_profile.jpg" alt="Scorer">
+								<h3>Scorer</h3>
+								<p class="category">Games</p>
+								<a href="http://www.darkjedi.org/news/news.php?n=5719">Call of Duty: Black Ops Cold War</a>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="djo-home__main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img class="main-footer__logo" src="images/djo-logo-footer.png" alt="DJO Footer logo">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 main-footer--prime">
+					<ul>
+						<li><a href="/about/">About Us</a></li>
+						<li><a href="/pages/?3700">Terms of Use</a></li>
+						<li><a href="/pages/?38">Site Credits</a></li>
+					</ul>
+
+				</div>
+				<div class="col-lg-3 col-md-4 main-footer--middle">
+					<h2>Community </h2>
+					<ul>
+						<li><a href="/comlink/">Comlink List</a></li>
+						<li><a href="http://www.darkjedi.org/news/">Club and Gaming News</a></li>
+						<li><a href="/pages/?5501">Member Resources</a></li>
+						<li><a href="http://www.darkjedi.org/pages/?14016">Open Staff Positions</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 main-footer--middle">
+					<h2>Gaming </h2>
+					<ul>
+						<li><a href="http://www.darkjedi.org/whatweplay.php">Supported Games and Clubs</a></li>
+						<li><a href="/pages/?13759">Start a New Club</a></li>
+						<li><a href="http://www.battlestats.com">Events and Competitions</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 offset-lg-0 offset-md-4 main-footer--last">
+					<ul>
+						<li><a href="https://www.youtube.com/channel/UC6ZWR95VwIVrQG63J2hNDxg"><i
+								class="fab fa-youtube"></i></a></li>
+						<li><a href="https://twitter.com/DJOMassComm"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="http://discord.me/djo"><i class="fab fa-discord"></i></a></li>
+					</ul>
+					<p>Earn a ribbon for connecting to our social networks!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col main-footer__copyright">
+					<p>© 1998 - <span><!-- Please use PHP to set the current year -->2021</span> <a href="http://www.dchero.com">DC Hero &amp; Co.</a></p>
+					<p> All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

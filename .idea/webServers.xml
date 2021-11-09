@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1c6aa13f-ab7d-46ac-b963-5ae7b5b9e271" name="DJO" url="">
+        <fileTransfer rootFolder="/djo4.zyp.mx" accessType="FTPS" host="ftps3.us.cloudlogin.co" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveCommand="CWD" keepAliveTimeout="60000" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
